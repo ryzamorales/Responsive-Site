@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/736x/4b/0d/a6/4b0da6f504bd72800c5fdb40cd498ddc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#cake{
+    height: 80vh;
+    width: 100%;
+   
+
+}
+section#cake{
+    font-size: 6rem;
+    font-weight: 600;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    padding: 9px 25px;
+    font-style: oblique;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.strawberry{
+    border-color: blueviolet;
+    padding: 20px 40px;
+    font-weight: bolder;
+    font-style: inherit;
+    color: aqua;
+    font-size: 30px;
+}
+
+nav ul li{
+    list-style-type: none ;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: dotted;
+    font-weight: bold;
+
+}
+ nav ul li a:hover{
+    color:violet;
+    transition: .3s;
+}
+
+button{
+    border-radius: 10px;
+    background: plum;
+    padding: 15px 35px;
+    font-style: initial;
+    font-size: 15px;
+}
+
+
+span p{
+    color: darkorchid;
+
+}
+
+#cake h1{
+    font-size: 3rem;
+}
+
+span p{
+    color: black;
+}
+
+
+h2:hover{
+    background-color: blueviolet;
+}
+
+footer{
+    margin-left: 80%;
+    height: 50px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 3px) 
+{ 
+
+body{
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    background-image:  url('https://i.pinimg.com/736x/94/b2/d5/94b2d5e682cf1c34d5ac4f5604c407b6.jpg');
+}
+
+nav{
+    display: inline;
+    align-items: center;
+    text-align: center;
+    color: #E30B5C;
+}
+
+button{
+    display: none;
+}
+
+nav ul li a{
+    color: #E30B5C;
+}
+.strawberry{
+    margin-left: 50%;
+}
+
+section#cake{
+    color:#e4286d;
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+footer{
+    margin-left: 60%;
+    height: 60px;
+}
+
+}
